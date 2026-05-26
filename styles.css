@@ -505,7 +505,6 @@ main {
 
 .pageHome__projetos,
 .pageHome__sobre,
-.pageHome__publicacoes,
 .pageHome__carreira,
 .pageHome__newsletter {
   margin-top: 64px;
@@ -513,7 +512,6 @@ main {
 
 .projetos__header,
 .sobre__header,
-.publicacoes__header,
 .header__carreira {
   display: flex;
   align-items: flex-end;
@@ -524,7 +522,6 @@ main {
 
 .projetos__h2,
 .sobre__h2,
-.publicacoes__h2,
 .carreira__h2,
 .newsletter__h2 {
   margin: 0;
@@ -715,72 +712,6 @@ main {
   background: var(--text);
 }
 
-.publicacoes__content {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 16px;
-}
-
-.post {
-  position: relative;
-}
-
-.post-link-wrapper {
-  display: block;
-}
-
-.flag {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 2;
-  background: rgba(255, 255, 255, 0.96);
-  padding: 12px 16px;
-}
-
-.flag span {
-  font-size: 12px;
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-}
-
-.post .image.desktop {
-  aspect-ratio: 920 / 517;
-}
-
-.post .image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.post .image.mobile {
-  display: none;
-}
-
-.post .description {
-  margin-top: 16px;
-}
-
-.post .title {
-  margin: 0 0 16px;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.4;
-}
-
-.post .text {
-  margin-bottom: 20px;
-}
-
-.post .text p {
-  margin: 0;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 1.6;
-}
-
 .cultura__content {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -961,7 +892,6 @@ main {
 
 @media (max-width: 1024px) {
   .searchandfilter > div > ul,
-  .publicacoes__content,
   .newsletter__inner,
   .cultura__content,
   .sobre__content {
