@@ -3,11 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KV Clone</title>
+  <title>Aura</title>
   <meta
     name="description"
-    content="Homepage de arquitetura com hero em slider, grade de projetos, sobre, carreira e newsletter."
+    content="Aura, escritório de arquitetura com projetos residenciais, institucionais e interiores."
   >
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Aura">
+  <meta
+    property="og:description"
+    content="Aura, escritório de arquitetura com projetos residenciais, institucionais e interiores."
+  >
+  <meta property="og:site_name" content="Aura">
+  <meta property="og:url" content="https://vincfud98.github.io/Aura/">
+  <meta property="og:image" content="https://vincfud98.github.io/Aura/logo-aura-transparent.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Aura">
+  <meta
+    name="twitter:description"
+    content="Aura, escritório de arquitetura com projetos residenciais, institucionais e interiores."
+  >
+  <meta name="twitter:image" content="https://vincfud98.github.io/Aura/logo-aura-transparent.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -22,11 +38,11 @@
   <header class="header" id="site-header">
     <div class="shell">
       <div class="content__menu">
-        <a href="#top" class="logoWhite" aria-label="KV Arquitetura">
+        <a href="#top" class="logoWhite" aria-label="Aura, escritório de arquitetura">
           <img src="logo-aura-transparent.png" alt="Logo Aura">
         </a>
 
-        <a href="#top" class="logoBlack" aria-label="KV Arquitetura">
+        <a href="#top" class="logoBlack" aria-label="Aura, escritório de arquitetura">
           <img src="logo-aura-transparent.png" alt="Logo Aura">
         </a>
 
@@ -39,7 +55,7 @@
         <nav class="navbar" id="mobile-nav" aria-label="Principal">
           <button class="close__menu" type="button">X</button>
 
-          <a href="#top" class="logo__mobile" aria-label="KV Arquitetura">
+          <a href="#top" class="logo__mobile" aria-label="Aura, escritório de arquitetura">
             <img src="logo-aura-transparent.png" alt="Logo Aura">
           </a>
 
@@ -55,9 +71,9 @@
             <li class="lang-item"><a href="#top" lang="en-US">en</a></li>
           </ul>
 
-          <a class="btn__search" href="#newsletter" aria-label="Busca">
-            <img class="searchWhite" src="https://kvarch.com/wp-content/themes/kv-theme/images/search.svg" alt="Busca">
-            <img class="searchBlack" src="https://kvarch.com/wp-content/themes/kv-theme/images/searchBlack.svg" alt="Busca">
+          <a class="btn__search" href="#contato" aria-label="Contato">
+            <img class="searchWhite" src="https://kvarch.com/wp-content/themes/kv-theme/images/search.svg" alt="Contato">
+            <img class="searchBlack" src="https://kvarch.com/wp-content/themes/kv-theme/images/searchBlack.svg" alt="Contato">
           </a>
         </nav>
       </div>
@@ -77,40 +93,33 @@
             <div>
               <ul>
                 <li>
-                  <h4>usos</h4>
+                  <h4>Usos</h4>
                   <ul>
-                    <li class="cat-item"><label><input type="checkbox"> Uso misto</label></li>
                     <li class="cat-item"><label><input type="checkbox"> Residencial</label></li>
                     <li class="cat-item"><label><input type="checkbox"> Institucional</label></li>
-                    <li class="cat-item"><label><input type="checkbox"> Edifícios de escritórios</label></li>
-                    <li class="cat-item"><label><input type="checkbox"> Masterplan</label></li>
-                    <li class="cat-item"><label><input type="checkbox"> Educacional</label></li>
-                    <li class="cat-item"><label><input type="checkbox"> Saúde</label></li>
+                    <li class="cat-item"><label><input type="checkbox"> Interiores</label></li>
+                    <li class="cat-item"><label><input type="checkbox"> Uso misto</label></li>
                   </ul>
                 </li>
                 <li>
-                  <h4>localização</h4>
+                  <h4>Localização</h4>
                   <ul>
                     <li class="cat-item"><label><input type="checkbox"> São Paulo</label></li>
-                    <li class="cat-item"><label><input type="checkbox"> Grande SP</label></li>
-                    <li class="cat-item"><label><input type="checkbox"> Centro-Oeste</label></li>
-                    <li class="cat-item"><label><input type="checkbox"> Norte e Nordeste</label></li>
-                    <li class="cat-item"><label><input type="checkbox"> Sul</label></li>
-                    <li class="cat-item"><label><input type="checkbox"> Interior de SP</label></li>
+                    <li class="cat-item"><label><input type="checkbox"> Grande São Paulo</label></li>
+                    <li class="cat-item"><label><input type="checkbox"> Interior</label></li>
+                    <li class="cat-item"><label><input type="checkbox"> Litoral</label></li>
                   </ul>
                 </li>
                 <li>
-                  <h4>status-projetos</h4>
+                  <h4>Status</h4>
                   <ul>
                     <li class="cat-item"><label><input type="checkbox"> Construído</label></li>
-                    <li class="cat-item"><label><input type="checkbox"> Em construção</label></li>
-                    <li class="cat-item"><label><input type="checkbox"> Todos</label></li>
-                    <li class="cat-item"><label><input type="checkbox"> Estudo</label></li>
+                    <li class="cat-item"><label><input type="checkbox"> Em obra</label></li>
                     <li class="cat-item"><label><input type="checkbox"> Em projeto</label></li>
                   </ul>
                 </li>
                 <li>
-                  <h4>ano</h4>
+                  <h4>Ano</h4>
                   <ul>
                     <li class="cat-item"><label><input type="checkbox"> 2026</label></li>
                     <li class="cat-item"><label><input type="checkbox"> 2025</label></li>
@@ -128,55 +137,45 @@
   <main id="top">
     <section class="pageHome__banner" aria-label="Projetos em destaque">
       <div class="pageHome__banner__content" id="banner-track">
-        <a href="https://kvarch.com/projetos/meet-sp/" class="item video kv-slide is-active" data-title="MEET SP">
+        <a href="#projetos" class="item video kv-slide is-active" data-title="Casa Horizonte">
           <img class="banner__desktop" src="WhatsApp Image 2026-05-25 at 18.58.51.jpeg" alt="Casa Horizonte">
           <img class="banner__mobile" src="WhatsApp Image 2026-05-25 at 18.58.53.jpeg" alt="Casa Horizonte">
           <h2 class="banners__h2">CASA HORIZONTE</h2>
         </a>
-        <a href="https://kvarch.com/projetos/dynamic-pinheiros/" class="item video kv-slide" data-title="DYNAMIC PINHEIROS">
+        <a href="#projetos" class="item video kv-slide" data-title="Casa Palmeira">
           <img class="banner__desktop" src="WhatsApp Image 2026-05-25 at 18.58.52 (3).jpeg" alt="Casa Palmeira">
           <img class="banner__mobile" src="WhatsApp Image 2026-05-25 at 18.58.54.jpeg" alt="Casa Palmeira">
           <h2 class="banners__h2">CASA PALMEIRA</h2>
         </a>
-        <a href="https://kvarch.com/projetos/hy-pinheiros/" class="item video kv-slide" data-title="HY PINHEIROS">
+        <a href="#projetos" class="item video kv-slide" data-title="Living Areia">
           <img class="banner__desktop" src="WhatsApp Image 2026-05-25 at 18.58.53 (1).jpeg" alt="Living Areia">
           <img class="banner__mobile" src="WhatsApp Image 2026-05-25 at 18.58.55 (1).jpeg" alt="Living Areia">
           <h2 class="banners__h2">LIVING AREIA</h2>
         </a>
-        <a href="https://kvarch.com/projetos/bueno-brandao/" class="item video kv-slide" data-title="BUENO BRANDÃO 257">
+        <a href="#projetos" class="item video kv-slide" data-title="Gourmet Nero">
           <img class="banner__desktop" src="WhatsApp Image 2026-05-25 at 18.58.54 (3).jpeg" alt="Gourmet Nero">
           <img class="banner__mobile" src="WhatsApp Image 2026-05-25 at 18.58.56.jpeg" alt="Gourmet Nero">
           <h2 class="banners__h2">GOURMET NERO</h2>
         </a>
-        <a href="https://kvarch.com/projetos/almagah-227/" class="item video kv-slide" data-title="ALMAGAH 227">
+        <a href="#projetos" class="item video kv-slide" data-title="Social Marfim">
           <img class="banner__desktop" src="WhatsApp Image 2026-05-25 at 18.58.53 (2).jpeg" alt="Social Marfim">
           <img class="banner__mobile" src="WhatsApp Image 2026-05-25 at 18.58.54 (2).jpeg" alt="Social Marfim">
           <h2 class="banners__h2">SOCIAL MARFIM</h2>
         </a>
-        <a href="https://kvarch.com/projetos/montelena/" class="item video kv-slide" data-title="MONTELENA">
+        <a href="#projetos" class="item video kv-slide" data-title="Lounge Atelier">
           <img class="banner__desktop" src="WhatsApp Image 2026-05-25 at 18.58.55 (2).jpeg" alt="Lounge Atelier">
           <img class="banner__mobile" src="WhatsApp Image 2026-05-25 at 18.58.55.jpeg" alt="Lounge Atelier">
           <h2 class="banners__h2">LOUNGE ATELIER</h2>
         </a>
-        <a href="https://kvarch.com/projetos/platina-220/" class="item video kv-slide" data-title="PLATINA 220">
+        <a href="#projetos" class="item video kv-slide" data-title="Suite Nativa">
           <img class="banner__desktop" src="WhatsApp Image 2026-05-25 at 18.58.56 (1).jpeg" alt="Suite Nativa">
           <img class="banner__mobile" src="WhatsApp Image 2026-05-25 at 18.58.56 (2).jpeg" alt="Suite Nativa">
           <h2 class="banners__h2">SUITE NATIVA</h2>
         </a>
-        <a href="https://kvarch.com/projetos/arte-concreta/" class="item video kv-slide" data-title="ARTE CONCRETA">
+        <a href="#projetos" class="item video kv-slide" data-title="Master Bath">
           <img class="banner__desktop" src="WhatsApp Image 2026-05-25 at 18.58.57.jpeg" alt="Master Bath">
           <img class="banner__mobile" src="WhatsApp Image 2026-05-25 at 18.58.54 (1).jpeg" alt="Master Bath">
           <h2 class="banners__h2">MASTER BATH</h2>
-        </a>
-        <a href="https://kvarch.com/projetos/sesc-av-paulista/" class="item video kv-slide" data-title="SESC AV. PAULISTA">
-          <img class="banner__desktop" src="WhatsApp Image 2026-05-25 at 18.58.51 (1).jpeg" alt="Fachada Brisa">
-          <img class="banner__mobile" src="WhatsApp Image 2026-05-25 at 18.58.52 (1).jpeg" alt="Fachada Brisa">
-          <h2 class="banners__h2">FACHADA BRISA</h2>
-        </a>
-        <a href="https://kvarch.com/projetos/mn15/" class="item video kv-slide" data-title="MN15">
-          <img class="banner__desktop" src="WhatsApp Image 2026-05-25 at 18.58.51 (2).jpeg" alt="Sala Serena">
-          <img class="banner__mobile" src="WhatsApp Image 2026-05-25 at 18.58.52 (2).jpeg" alt="Sala Serena">
-          <h2 class="banners__h2">SALA SERENA</h2>
         </a>
       </div>
 
@@ -188,17 +187,17 @@
     <section class="pageHome__projetos" id="projetos">
       <div class="shell">
         <div class="projetos__header">
-          <a href="https://kvarch.com/projetos" class="verMore">
+          <a href="#projetos" class="verMore">
             <h2 class="projetos__h2">Projetos</h2>
           </a>
-          <a href="https://kvarch.com/projetos" class="verMore">
-            Ver Mais
+          <a href="#projetos" class="verMore">
+            Ver mais
             <span><img src="https://kvarch.com/wp-content/themes/kv-theme/images/icon-arrow.svg" alt="Ver mais"></span>
           </a>
         </div>
 
         <div class="projetos__content">
-          <a href="https://kvarch.com/projetos/hy-pinheiros/" class="projetos">
+          <a href="#projetos" class="projetos">
             <div class="image">
               <img class="desktop" src="WhatsApp Image 2026-05-25 at 18.58.51.jpeg" alt="Casa Horizonte">
               <img class="mobile" src="WhatsApp Image 2026-05-25 at 18.58.53.jpeg" alt="Casa Horizonte">
@@ -209,7 +208,7 @@
             </div>
           </a>
 
-          <a href="https://kvarch.com/projetos/bueno-brandao/" class="projetos">
+          <a href="#projetos" class="projetos">
             <div class="image">
               <img class="desktop" src="WhatsApp Image 2026-05-25 at 18.58.54 (3).jpeg" alt="Gourmet Nero">
               <img class="mobile" src="WhatsApp Image 2026-05-25 at 18.58.56.jpeg" alt="Gourmet Nero">
@@ -220,7 +219,7 @@
             </div>
           </a>
 
-          <a href="https://kvarch.com/projetos/mn15/" class="projetos">
+          <a href="#projetos" class="projetos">
             <div class="image">
               <img class="desktop" src="WhatsApp Image 2026-05-25 at 18.58.53 (1).jpeg" alt="Living Areia">
               <img class="mobile" src="WhatsApp Image 2026-05-25 at 18.58.55 (1).jpeg" alt="Living Areia">
@@ -231,7 +230,7 @@
             </div>
           </a>
 
-          <a href="https://kvarch.com/projetos/sesc-av-paulista/" class="projetos">
+          <a href="#projetos" class="projetos">
             <div class="image">
               <img class="desktop" src="WhatsApp Image 2026-05-25 at 18.58.52 (3).jpeg" alt="Casa Palmeira">
               <img class="mobile" src="WhatsApp Image 2026-05-25 at 18.58.54.jpeg" alt="Casa Palmeira">
@@ -248,77 +247,53 @@
     <section class="pageHome__sobre" id="sobre">
       <div class="shell">
         <div class="sobre__header">
-          <a href="https://kvarch.com/sobre" class="verMore">
+          <a href="#sobre" class="verMore">
             <h2 class="sobre__h2">Sobre</h2>
           </a>
-          <a href="https://kvarch.com/sobre" class="verMore">
-            Ver Mais
+          <a href="#sobre" class="verMore">
+            Ver mais
             <span><img src="https://kvarch.com/wp-content/themes/kv-theme/images/icon-arrow.svg" alt="Ver mais"></span>
           </a>
         </div>
 
         <div class="sobre__content">
           <div class="sobre__images">
-            <a href="https://kvarch.com/sobre" class="image kv-about-slide is-active">
-              <div class="desktop">
-                <img src="WhatsApp Image 2026-05-25 at 18.58.55 (2).jpeg" alt="Criação colaborativa">
-              </div>
-              <div class="mobile">
-                <img src="WhatsApp Image 2026-05-25 at 18.58.55.jpeg" alt="Criação colaborativa">
-              </div>
-            </a>
-            <a href="https://kvarch.com/sobre" class="image kv-about-slide">
-              <div class="desktop">
-                <img src="WhatsApp Image 2026-05-25 at 18.58.54 (3).jpeg" alt="Excelência técnica">
-              </div>
-              <div class="mobile">
-                <img src="WhatsApp Image 2026-05-25 at 18.58.56.jpeg" alt="Excelência técnica">
-              </div>
-            </a>
-            <a href="https://kvarch.com/sobre" class="image kv-about-slide">
-              <div class="desktop">
-                <img src="WhatsApp Image 2026-05-25 at 18.58.53 (1).jpeg" alt="Sustentabilidade">
-              </div>
-              <div class="mobile">
-                <img src="WhatsApp Image 2026-05-25 at 18.58.55 (1).jpeg" alt="Sustentabilidade">
-              </div>
-            </a>
-            <a href="https://kvarch.com/sobre" class="image kv-about-slide">
-              <div class="desktop">
-                <img src="WhatsApp Image 2026-05-25 at 18.58.57.jpeg" alt="Constante reinvenção">
-              </div>
-              <div class="mobile">
-                <img src="WhatsApp Image 2026-05-25 at 18.58.54 (1).jpeg" alt="Constante reinvenção">
-              </div>
-            </a>
+            <div class="kv-about-slide is-active">
+              <img class="desktop" src="WhatsApp Image 2026-05-25 at 18.58.50.jpeg" alt="Aura interiores">
+              <img class="mobile" src="WhatsApp Image 2026-05-25 at 18.58.53.jpeg" alt="Aura interiores">
+            </div>
+            <div class="kv-about-slide">
+              <img class="desktop" src="WhatsApp Image 2026-05-25 at 18.58.55 (2).jpeg" alt="Aura arquitetura">
+              <img class="mobile" src="WhatsApp Image 2026-05-25 at 18.58.54 (1).jpeg" alt="Aura arquitetura">
+            </div>
+            <div class="kv-about-slide">
+              <img class="desktop" src="WhatsApp Image 2026-05-25 at 18.58.57.jpeg" alt="Aura detalhe">
+              <img class="mobile" src="WhatsApp Image 2026-05-25 at 18.58.56.jpeg" alt="Aura detalhe">
+            </div>
 
-            <button class="slick-prev kv-about-prev" type="button" aria-label="Slide anterior">Previous</button>
-            <button class="slick-next kv-about-next" type="button" aria-label="Próximo slide">Next</button>
+            <button class="kv-about-prev" type="button" aria-label="Slide anterior"></button>
+            <button class="kv-about-next" type="button" aria-label="Próximo slide"></button>
           </div>
 
           <div class="sobre__description">
             <div class="descritpion kv-about-copy is-active">
-              <div class="title">CRIAÇÃO COLABORATIVA</div>
+              <h3 class="title">Criação colaborativa</h3>
               <div class="text">
-                <p>Realizamos escutas e trocas constantes entre a equipe e clientes, lapidando e integrando ideias que dão origem a ativos relevantes, regional e nacionalmente, com valor comercial e cultural.</p>
+                <p>Desenvolvemos projetos autorais com escuta, estratégia e atenção ao modo de viver de cada cliente.</p>
               </div>
             </div>
+
             <div class="descritpion kv-about-copy">
-              <div class="title">EXCELÊNCIA TÉCNICA</div>
+              <h3 class="title">Arquitetura com identidade</h3>
               <div class="text">
-                <p>Formada por profissionais altamente experientes, nossa equipe concebe e desenvolve projetos de alta qualidade, cuidadosamente elaborados para atender aos mais altos padrões do mercado.</p>
+                <p>Criamos espaços residenciais e institucionais com linguagem contemporânea, conforto e presença visual.</p>
               </div>
             </div>
+
             <div class="descritpion kv-about-copy">
-              <div class="title">SUSTENTABILIDADE</div>
+              <h3 class="title">Precisão no detalhe</h3>
               <div class="text">
-                <p>Produzimos uma arquitetura que responde aos desafios do nosso tempo e dialoga com o entorno, identificando mudanças e se reinventando conforme a necessidade.</p>
-              </div>
-            </div>
-            <div class="descritpion kv-about-copy">
-              <div class="title">CONSTANTE REINVENÇÃO</div>
-              <div class="text">
-                <p>Desenvolvemos soluções responsáveis, por meio de um pensamento culturalmente comprometido, sustentável, criativo e integrador.</p>
+                <p>Do conceito à materialidade, cada etapa é pensada para unir estética, funcionalidade e permanência.</p>
               </div>
             </div>
 
@@ -332,64 +307,27 @@
       <div class="shell">
         <div class="carreira">
           <div class="header__carreira">
-            <a href="https://kvarch.com/carreira" class="verMore">
+            <a href="#carreira" class="verMore">
               <h2 class="carreira__h2">Carreira</h2>
             </a>
-            <a href="https://kvarch.com/carreira" class="verMore">
-              Ver Mais
+            <a href="#carreira" class="verMore">
+              Ver mais
               <span><img src="https://kvarch.com/wp-content/themes/kv-theme/images/icon-arrow.svg" alt="Ver mais"></span>
             </a>
           </div>
 
           <div class="cultura__content">
             <div class="cultura__description">
-              <h2 class="cultura__h2">GOSTARIA DE FAZER PARTE DESSE TIME?</h2>
-              <a href="https://kvarch.com/carreira" class="verVagas">
-                Ver Vagas
-                <img src="https://kvarch.com/wp-content/themes/kv-theme/images/arrow-right.svg" alt="Ver vagas">
+              <h2 class="cultura__h2">Gostaria de fazer parte desse time?</h2>
+              <a href="#contato" class="verVagas">
+                Entrar em contato
+                <img src="https://kvarch.com/wp-content/themes/kv-theme/images/arrow-right.svg" alt="Contato">
               </a>
             </div>
             <div class="image">
-              <img class="desktop" src="WhatsApp Image 2026-05-25 at 18.58.52.jpeg" alt="Carreira">
-              <img class="mobile" src="WhatsApp Image 2026-05-25 at 18.58.52 (1).jpeg" alt="Carreira">
+              <img class="desktop" src="WhatsApp Image 2026-05-25 at 18.58.56 (1).jpeg" alt="Equipe Aura">
+              <img class="mobile" src="WhatsApp Image 2026-05-25 at 18.58.56 (2).jpeg" alt="Equipe Aura">
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="pageHome__newsletter" id="newsletter">
-      <div class="shell">
-        <div class="newsletter__content">
-          <h2 class="newsletter__h2">Newsletter</h2>
-          <div class="newsletter__inner">
-            <div class="newletter__text">
-              <p class="text">Não perca nenhuma novidade e acompanhe nosso conteúdo.</p>
-            </div>
-
-            <div class="form__class">
-              <form id="newsletter-form">
-                <div class="form__row">
-                  <p>
-                    <span class="wpcf7-form-control-wrap">
-                      <input
-                        class="field"
-                        type="email"
-                        name="email"
-                        placeholder="Insira seu e-mail"
-                        aria-label="Insira seu e-mail"
-                        required
-                      >
-                    </span>
-                  </p>
-                </div>
-                <div class="form__row button">
-                  <p><button class="btn btn__primary" type="submit">Inscrever</button></p>
-                </div>
-              </form>
-            </div>
-
-            <p class="message" id="newsletter-message">Inscrição realizada com sucesso!</p>
           </div>
         </div>
       </div>
@@ -400,7 +338,7 @@
     <div class="shell">
       <div class="content__footer">
         <div class="logo">
-          <a href="#top" class="logoWhite" aria-label="Aura Arquitetura e Interiores">
+          <a href="#top" class="logoWhite" aria-label="Aura, escritório de arquitetura">
             <img src="logo-aura-transparent.png" alt="Logo Aura">
           </a>
         </div>
@@ -430,16 +368,13 @@
                     <li class="menu-item"><a href="#sobre">Sobre</a></li>
                     <li class="menu-item"><a href="#carreira">Carreira</a></li>
                     <li class="menu-item"><a href="#contato">Contato</a></li>
-                    <li class="menu-item"><a href="#newsletter">Newsletter</a></li>
                   </ul>
                 </nav>
               </div>
             </div>
 
             <div class="row">
-              <p class="copy">
-                AURA ARQUITETURA &amp; INTERIORES
-              </p>
+              <p class="copy">AURA ARQUITETURA &amp; INTERIORES</p>
             </div>
           </div>
         </div>

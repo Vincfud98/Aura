@@ -14,9 +14,6 @@ const aboutCopies = [...document.querySelectorAll(".kv-about-copy")];
 const aboutPrev = document.querySelector(".kv-about-prev");
 const aboutNext = document.querySelector(".kv-about-next");
 const aboutDots = document.getElementById("about-dots");
-const newsletterForm = document.getElementById("newsletter-form");
-const newsletterMessage = document.getElementById("newsletter-message");
-
 let bannerIndex = 0;
 let aboutIndex = 0;
 let bannerTimer;
@@ -200,14 +197,6 @@ if (aboutNext) {
   aboutNext.addEventListener("click", () => {
     const nextIndex = (aboutIndex + 1) % aboutSlides.length;
     setAbout(nextIndex);
-  });
-}
-
-if (newsletterForm && newsletterMessage) {
-  newsletterForm.addEventListener("submit", (event) => {
-    event.preventDefault();
-    newsletterMessage.classList.add("is-visible");
-    newsletterForm.reset();
   });
 }
 
